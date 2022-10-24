@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: lightblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    margin: 0 auto;
+    width: 800px;
+}
+
+nav div{
+    height: 30px;
+    background-color: orange;
+    border: dashed 2px black;
+    
+}
+.logo,.login{
+    padding: 3px 3px 0px 3px;
+    width: 20%;
+}
+
+.menu{
+    padding-top: 3px;
+    text-align: center;
+}
+
+.login{
+    text-align: right;
+}
+
+div.menu{
+    width: 60%;
+}
