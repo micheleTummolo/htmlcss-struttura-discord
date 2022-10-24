@@ -55,3 +55,36 @@ div.menu{
     height: 300px;
     background-color: palevioletred;
 }
+
+
+/*Sezioni centrali*/
+.container{
+    height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.container_bk_color{
+    background-color: #bebebe;
+}
+
+.sezione{
+    width: 60%;
+    height: 350px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.azzurro{
+    background-color: #13a7fd;
+    border: dashed 2px black;
+    width: 60%;
+    height: 350px;
+}
+
+.rosa{
+    background-color: #e657ff;
+    border: dashed 2px black;
+    width: 40%;
+    height: 350px;
+}
