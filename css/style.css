@@ -10,7 +10,7 @@ header{
     display: flex;
     align-items: center;
 }
-
+/*Barra di navigazione*/
 nav{
     display: flex;
     margin: 0 auto;
@@ -39,4 +39,19 @@ nav div{
 
 div.menu{
     width: 60%;
+}
+
+/*Prima sezione*/
+.container1{
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sezione1{
+    width: 50%;
+    height: 300px;
+    background-color: palevioletred;
 }
