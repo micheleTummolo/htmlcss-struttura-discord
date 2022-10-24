@@ -88,3 +88,21 @@ div.menu{
     width: 40%;
     height: 350px;
 }
+
+/*Ultima sezione*/
+.last_container{
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.ultima_sezione{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.verde{
+    background-color: #009b3e;
+    border: dashed 2px black;
+    height: 700px;
+}
