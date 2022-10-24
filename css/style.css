@@ -4,105 +4,189 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: lightblue;
-    height: 50px;
-    display: flex;
-    align-items: center;
-}
-/*Barra di navigazione*/
-nav{
-    display: flex;
-    margin: 0 auto;
-    width: 800px;
-}
-
-nav div{
-    height: 30px;
-    background-color: orange;
+.border{
     border: dashed 2px black;
-    
-}
-.logo,.login{
-    padding: 3px 3px 0px 3px;
-    width: 20%;
 }
 
-.menu{
-    padding-top: 3px;
-    text-align: center;
-}
+/*Inizio Header*/
 
-.login{
-    text-align: right;
-}
+    header{
+        background-color: lightblue;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
 
-div.menu{
-    width: 60%;
-}
+    /*Barra di navigazione*/
+
+        nav{
+            display: flex;
+            margin: 0 auto;
+            width: 800px;
+        }
+
+        nav div{
+            height: 30px;
+            background-color: orange;
+        }
+
+        .logo,.login{
+            padding: 3px 3px 0px 3px;
+            width: 20%;
+        }
+
+        .menu{
+            padding-top: 3px;
+            text-align: center;
+        }
+
+        .login{
+            text-align: right;
+        }
+
+        div.menu{
+            width: 60%;
+        }
+
+    /*Fine Barra di navigazione*/
+
+/*Fine Header*/
+
 
 /*Prima sezione*/
-.container1{
-    height: 400px;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.sezione1{
-    width: 50%;
-    height: 300px;
-    background-color: palevioletred;
-}
+    .container1{
+        height: 400px;
+        background-color: blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sezione1{
+        width: 50%;
+        height: 300px;
+        background-color: palevioletred;
+    }
+
+/*Fine Prima sezione*/
 
 
 /*Sezioni centrali*/
-.container{
-    height: 450px;
-    display: flex;
-    align-items: center;
-}
 
-.container_bk_color{
-    background-color: #bebebe;
-}
+    .container{
+        height: 450px;
+        display: flex;
+        align-items: center;
+    }
 
-.sezione{
-    width: 60%;
-    height: 350px;
-    display: flex;
-    margin: 0 auto;
-}
+    .container_bk_color{
+        background-color: #bebebe;
+    }
 
-.azzurro{
-    background-color: #13a7fd;
-    border: dashed 2px black;
-    width: 60%;
-    height: 350px;
-}
+    .sezione{
+        width: 60%;
+        height: 350px;
+        display: flex;
+        margin: 0 auto;
+    }
 
-.rosa{
-    background-color: #e657ff;
-    border: dashed 2px black;
-    width: 40%;
-    height: 350px;
-}
+    .azzurro{
+        background-color: #13a7fd;
+        width: 60%;
+        height: 350px;
+    }
+
+    .rosa{
+        background-color: #e657ff;
+        width: 40%;
+        height: 350px;
+    }
+
+/*Fine Sezioni centrali*/
 
 /*Ultima sezione*/
-.last_container{
-    height: 800px;
-    display: flex;
-    align-items: center;
-}
 
-.ultima_sezione{
-    width: 60%;
-    margin: 0 auto;
-}
+    .last_container{
+        height: 800px;
+        display: flex;
+        align-items: center;
+    }
 
-.verde{
-    background-color: #009b3e;
-    border: dashed 2px black;
-    height: 700px;
-}
+    .ultima_sezione{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .verde{
+        background-color: #009b3e;
+        height: 700px;
+    }
+
+/*Fine Ultima sezione*/
+
+/*Footer*/
+
+    /*Footer Top*/
+
+        .footer_top{
+            background-color: black;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 2px;
+        }
+
+        .main_row{
+            height: 350px;
+            width: 60%;
+            display: flex;
+            margin: 0 auto;
+        }
+
+        .col{
+            height: 100%;
+        }
+
+        .principale{
+            width: 32%;
+            background-color: #ff76ea;
+        }
+
+        .secondaria{
+            width: 17%;
+            background-color: #21eef9;
+        }
+
+    /*Fine Footer Top*/
+
+    /*Footer Down*/
+
+        .footer_down{
+            background-color: black;
+            height: 100px;
+            display: flex;
+            align-items: center;
+        }
+
+        .row{
+            width: 60%;
+            height: 70px;
+            background-color: skyblue;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo2,.bottone{
+            background-color: #ff94a6;
+            width: 10%;
+            height: 25px;
+            text-align: center;
+            padding: 2px;
+        }
+
+    /*Fine Footer Down*/
+
+/*Fine Footer*/
